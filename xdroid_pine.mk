@@ -11,6 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common xdroidsp stuff.
 $(call inherit-product, vendor/xdroid/config/common.mk)
+XDROID_BOOT_DARK := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_SUPPORTS_QUICK_TAP := false
 
 # Inherit from pine device
 $(call inherit-product, device/xiaomi/pine/device.mk)
