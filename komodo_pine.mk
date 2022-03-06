@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common KomodoOS stuff.
-$(call inherit-product, vendor/komodo/config/common.mk)
+$(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 
 
 # Inherit from pine device
